@@ -1,0 +1,29 @@
+
+
+.AppLink {
+    color: var(--black-color);
+    height: var(--link-height);
+    display: flex;
+    align-items: center;
+
+    &.fullWidth {
+        width: 100%;
+    }
+}
+
+.white {
+    color: var(--light-color);
+}
+
+.black {
+    color: var(--black-color);
+}
+
+.fullHeight {
+    display: inline-block;
+    height: 100%;
+}
+
+.autoHeight {
+    height: auto;
+}

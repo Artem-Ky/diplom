@@ -1,0 +1,62 @@
+// общие файлы
+
+@import './variables/normalize', './variables/fonts', './variables/variables',
+    './variables/mixins', './variables/media', './variables/utils',
+    './variables/globals';
+
+
+body {
+    font-family: RobotoSlab, serif;
+    font-weight: 400;
+    color: var(--black-color);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.app {
+    background-color: var(--light-color);
+}
+
+.content-page {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    // padding-top: var(--nav-bar-padding);
+
+    // &.mobile {
+    //     padding-block: 0;
+    // }
+}
+
+.container {
+    width: 1580px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (width <= 1580px) {
+        width: 1330px;
+    }
+
+    @media screen and (width <= 1366px) {
+        width: 1004px;
+    }
+
+    @media screen and (width <= 1024px) {
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+    @media screen and (width <= 768px) {
+        width: 100%;
+        padding-inline: 10px;
+    }
+}

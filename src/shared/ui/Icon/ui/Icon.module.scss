@@ -1,0 +1,45 @@
+.Icon {
+    --color: var(--light-color);
+    
+    &.white {
+        --color: var(--light-color);
+    }
+
+    &.gray {
+        --color: var(--gray-color);
+    }
+    
+    &.black {
+        --color: var(--black-color);
+    }
+
+    &.light-gray {
+        --color: var(--gray-color-light);
+    }
+    
+    &.fill-no-stroke {
+        stroke: none;
+        fill: var(--color);
+    }
+    
+    &.stroke-no-fill {
+        stroke: var(--color);
+        fill: none;
+    }
+}
+
+
+.small {
+    height: 18px;
+    width: 18px;
+}
+
+.medium {
+    height: 22px;
+    width: 22px;
+}
+
+.large {
+    height: 26px;
+    width: 26px;
+}

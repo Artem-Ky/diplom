@@ -1,0 +1,74 @@
+.text {
+    display: inline-block;
+}
+
+.main {
+    color: var(--main-font-color);
+    
+}
+
+.black-white {
+    color: var(--main-font-color);
+    
+}
+
+.white {
+    color: var(--light-color);
+    
+}
+
+.white-gray {
+    color: var(--sub-font-color-alt);
+    
+}
+
+.gray {
+    color: var(--gray-color);
+
+}
+
+.gray-light {
+    color: var(--gray-color-light);
+}
+
+.error {
+    color: var(--accent-color);
+    
+}
+
+.inverted {
+    color: var(--inverted-font-color);
+}
+
+.left,
+.right,
+.center {
+    display: inline-block;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.roboto-slab-700-24px-1-75lh {
+    font: var(--font-roboto-slab-700-24px-1-75lh);
+
+}
+
+.sf-400-13-5px-1-5lh {
+    font: var(--font-sf-400-13-5px-1-5lh);
+
+}
+
+.widthAuto {
+    width: auto;
+}
